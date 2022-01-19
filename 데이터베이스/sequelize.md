@@ -44,3 +44,17 @@ sequelize 는 ORM(Object-Relational-Mapping)을 도와주는 모듈로 관계형
 
         npx sequelize-cli db:migrate
 
+* models 
+
+    모델을 생성하면 
+    
+        const { user } = require('../../models');
+
+    이런 식으로 데이터베이스 정보를 불러올수 있다 
+
+        user.findAll({
+            where: {
+                
+            }
+        }
+
